@@ -16,14 +16,14 @@ These instructions will provide you with a copy of the project and show you how 
 You must have your machine up to date and have Python 3 installed, as well as some modules, such as: flask and requests, and if you don't have it, you'll need to install it this way here:
 ```
 # Tested on Ubuntu 14.04, 15.04 and 16.04, Debian 7, Linux Mint 17.2
-$ sudo apt-get update && sudo apt-get upgrade   
-$ sudo apt install python3 && python3-pip
-$ sudo pip3 install flask && requests 
+$ sudo apt-get update -y && sudo apt-get upgrade -y   
+$ sudo apt install python3 && python3-pip -y
+$ sudo pip3 install flask && requests -y
 ```
 With everything installed,  we will clone the repository like this:
 
 ```
-$ git clone https://github.com/VycktorStark/tetasrobot.git
+$ git clone https://github.com/x10mrrobot01x/YummyBot.git
 ```
 
 With the repository installed, you should observe your bot's settings via [BotFather](http://telegram.me/BotFather), if you don't have one you need to create (more information on the [Bots official FAQ page](https://core.telegram.org/bots/faq#what-messages-will-my-bot-get))
