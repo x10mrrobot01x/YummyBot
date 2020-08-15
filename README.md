@@ -17,8 +17,8 @@ You must have your machine up to date and have Python 3 installed, as well as so
 ```
 # Tested on Ubuntu 14.04, 15.04 and 16.04, Debian 7, Linux Mint 17.2
 $ sudo apt-get update -y && sudo apt-get upgrade -y   
-$ sudo apt install python3 && python3-pip -y
-$ sudo pip3 install flask && requests -y
+$ sudo apt install python3 && python3-pip
+$ sudo pip3 install flask && requests
 ```
 With everything installed,  we will clone the repository like this:
 
